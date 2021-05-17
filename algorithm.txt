@@ -1,0 +1,56 @@
+Write a program that returns all prime numbers up to a given max.
+Prime number: A number greater than 1 that is only divisible by itself and 1
+
+
+We need to define the max number 
+ iterate through the list to see first if the number is divisible by any number 
+ less than itself
+
+we need an array to put the prime numbers in
+
+
+
+
+
+
+Group 2:
+3. Write a function to reverse a string (provided as an argument)
+4. Write a function to return a boolean based on whether or not the argument provided (string) is a palindrome. A palindrome is word or phrase that has the same characters whether forward or backwards
+eg racecar => true; truck => false
+
+Needs: a fucntion that takes the string and reverses it, iterate through the string(loop),  methods (.pop() or .push()) to pop that last letter and push it an empty string
+
+
+
+
+
+1. Write a function that multiplies two numbers (provided as arguments) without using *
+2. Given a 2D array of 1s and 0s, count the number of “islands of 1s” (e.g. groups of 1s)
+eg [0,0,1,1,0,1,0,1,0,1,0,0,0,0,1,1,1,1,1,0,1,0,1,1] => 7
+
+
+Needs 1: function that takes two arguments (number1 and number 2), use a for loop to add number1 n times, where the letter n = number2
+
+
+Needs 2: an array of 1s and 0s, we need to count how many times there is a group of ones grouped together, return an answer , john says we need counter lol, and 2 for loop
+
+
+
+// Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+// You may assume that each input would have exactly one solution, and you may not use the same element twice.
+// You can return the answer in any order.
+// Givens 
+// - Only one valid answer exists 
+// - nums will always be Array, and target will always be number 
+// - 2 <= nums.length <= 1,000
+// - -1,000,000,000 <= nums[i] <= 1,000,000,000 
+// - -1,000,000,000 <= target <= 1,000,000,000 
+// Examples
+// Ex input: nums = [2,7,11,15], target = 9
+// Ex output: [0,1]
+// Ex input: nums = [3,2,4], target = 6
+// Ex output: [1,2]
+// Ex input: nums = [3,3], target = 6
+// Ex output: [0,1]
+
+Needs 1: we need 2 loops to iterate through the array, we need to have a return statement that only returns the indices 
