@@ -19,41 +19,41 @@
 // console.log(isPrime(10));
 
 
-//Reverse string problem 
+"Reverse string problem "
 
-// const string = 'bingo'
+const string = 'bingo'
 
-// //the reverse string function
-// const reverseString = (string) => {
-//     let newString = ''
-//     for (let i = string.length -1 ; i >= 0; i--) {
-//         newString += string[i] 
-//     }
-//     console.log(newString); 
-// }
-
-// reverseString(string);
-
-
-
-Palindrome Problem 
-
-const isPalindrome = 'radar'
-const notPalindrome = 'book'
-
-const palindrome = (string) => {
+//the reverse string function
+const reverseString = (string) => {
     let newString = ''
     for (let i = string.length -1 ; i >= 0; i--) {
         newString += string[i] 
     }
-    if(newString === string) {
-        return true;
-    }else {
-        return false;
-    }
+    console.log(newString); 
 }
-console.log('Should return true :', palindrome(isPalindrome));
-console.log('Should return false: ', palindrome(notPalindrome));
+
+reverseString(string);
+
+
+
+// Palindrome Problem 
+
+// const isPalindrome = 'radar'
+// const notPalindrome = 'book'
+
+// const palindrome = (string) => {
+//     let newString = ''
+//     for (let i = string.length -1 ; i >= 0; i--) {
+//         newString += string[i] 
+//     }
+//     if(newString === string) {
+//         return true;
+//     }else {
+//         return false;
+//     }
+// }
+// console.log('Should return true :', palindrome(isPalindrome));
+// console.log('Should return false: ', palindrome(notPalindrome));
 
 
 // const number1 = 5
