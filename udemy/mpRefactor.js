@@ -2,6 +2,7 @@
 
 function sumZero(arr){
     let left = 0
+    //starts at the last index in the array
     let right = arr.length - 1;
     while(left < right){
         let sum = arr[left] + arr[right];

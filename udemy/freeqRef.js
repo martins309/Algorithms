@@ -10,7 +10,7 @@ function same(arr1, arr2) {
    }
 
    for(let key of arr2) {
-    frequencyCounter2[val] = (frequencyCounter2 ||0) + 1
+    frequencyCounter2[key] = (frequencyCounter2 ||0) + 1
       
    }
     for(let key in frequencyCounter1) {
