@@ -22,7 +22,7 @@ sumZero([-4,-3,-2,-1,0,1,2,3,10])
 
 function countUniqueValues(arr) {
     i = 0
-    j = arr.length + 1
+    j = i + 1
     let sum = i + j
     while(i !== j){
         if(i === j){
