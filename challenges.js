@@ -34,4 +34,39 @@ function sameFrequency(num1, num2){
   }
 
   
-  //
+  //given a sorted array of integers and a target average
+  //determine if there are a pair of values in the array where the average pair equals the target average
+  // There can be more than one pair that matches the target
+
+
+// my solution
+  function averagePair(arr, num){
+    let a = 0;
+    let b = 1;
+    while(a < b) {
+       let mean = (arr[a] + arr[b])/arr.length 
+       if(mean === num) {
+           return true
+       }else if(mean < num) {
+           a++
+       }else{
+           b++
+       }
+    }
+    return false;
+  
+}
+
+//the solution
+function averagePair(arr, num){
+    let a = 0;
+    let b = arr.length -1;
+    while(a < b) {
+       let mean = (arr[a] + arr[b])/2
+       if(mean === num) return true;
+       else if(mean < num) a++
+       else b--
+       
+    }
+    return false;
+}
