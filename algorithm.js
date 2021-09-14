@@ -19,24 +19,24 @@
 // console.log(isPrime(10));
 
 
-"Reverse string problem "
+// "Reverse string problem "
 
-const string = 'bingo'
+// const string = 'bingo'
 
-//the reverse string function
-const reverseString = (string) => {
-    let newString = ''
-    for (let i = string.length -1 ; i >= 0; i--) {
-        newString += string[i] 
-    }
-    console.log(newString); 
-}
+// //the reverse string function
+// const reverseString = (string) => {
+//     let newString = ''
+//     for (let i = string.length -1 ; i >= 0; i--) {
+//         newString += string[i] 
+//     }
+//     console.log(newString); 
+// }
 
-reverseString(string);
+// reverseString(string);
 
 
 
-// Palindrome Problem 
+// //Palindrome Problem 
 
 // const isPalindrome = 'radar'
 // const notPalindrome = 'book'
@@ -53,7 +53,7 @@ reverseString(string);
 //     }
 // }
 // console.log('Should return true :', palindrome(isPalindrome));
-// console.log('Should return false: ', palindrome(notPalindrome));
+// console.log('Should return false:', palindrome(notPalindrome));
 
 
 // const number1 = 5
@@ -95,6 +95,18 @@ reverseString(string);
 //         }
 //     }
 // }
+
+const ar = [2,3,4,5];
+
+function simpleArraySum(ar) {
+    
+    for(let i = 0; i < ar.length; i++){
+        let value =( ar[i] + ar[i + 1]);
+        value += ar[i];
+    }
+    
+}
+console.log(simpleArraySum(ar));
 
 
 
