@@ -1,5 +1,5 @@
 //return an array with the score of the first triplet "a" and the second triplet "b"
-//when comparing which of the elements in both trplets is greater than the other
+//when comparing which of the elements in both trplets are greater than the other
 // examples a: [1,2,3]; b:[3,2,3] 
 //return [a,b] = [0,1]
 
