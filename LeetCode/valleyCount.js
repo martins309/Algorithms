@@ -1,4 +1,4 @@
-// a hiker keeps a meticulous record of his hikes, and for everystep it was noted that 'U' is uphill and 'D' is downhill
+// a hiker keeps a meticulous record of his hikes, and for everystep it was noted that 'U' if uphill and 'D' if downhill
 //The hike always starts at sea level and each step up or down represents 1 unit change in altitude 
 // A mountainous sequence always starts up and ends down
 //a valley sequence always starts down and ends up
