@@ -1,5 +1,5 @@
 //sliding window
-//Invilves creating a window which can either be an array or number from one position to another
+//Involves creating a window which can either be an array or number from one position to another
 
 // depening on the condition the window increases or closes  and a new window is created
 // useful for keeping track of a subset of data in an array/string 

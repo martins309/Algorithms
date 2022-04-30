@@ -1,5 +1,5 @@
 //Multiple pointers pattern
-//creating pointers or values that correspond to an index or aposition and move towards the beginning, and or middle based on a certain condition;
+//creating pointers or values that correspond to an index or a position and move towards the beginning, and or middle based on a certain condition;
 
 // Example : Write a function called sumZero which accepts a sorted array of integers. The function should find the first pair where the sum is 0. 
 //Return an array that includes both values that sum to zero or undefined
